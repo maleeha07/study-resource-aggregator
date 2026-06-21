@@ -1,0 +1,20 @@
+# Environments & Keys
+.env
+.env.local
+.env.*.local
+
+# Python artifacts
+backend/venv/
+backend/__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node environment paths
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# System and ide files
+.vscode/
+.DS_Store
+Thumbs.db
