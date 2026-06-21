@@ -1,0 +1,167 @@
+{
+  "topic": "React",
+  "difficulty": "Beginner",
+  "total_days": 5,
+  "days": [
+    {
+      "day": 1,
+      "focus": "React Fundamentals & Setup",
+      "sessions": [
+        {
+          "time": "9:00 AM - 10:30 AM",
+          "activity": "Watch 'React Tutorial for Beginners' by Programming with Mosh (Chapters: Introduction, Setting Up, Components)"
+        },
+        {
+          "time": "10:30 AM - 12:00 PM",
+          "activity": "Start 'React Tutorial Full Course - Beginner to Pro' by SuperSimpleDev (Sections: Introduction, What is React?, JSX, Setting up a React project with Vite)"
+        },
+        {
+          "time": "1:00 PM - 2:30 PM",
+          "activity": "Read 'Learning React' by Alex Banks (Chapters: Introduction to React, Setting Up a Project, JSX)"
+        },
+        {
+          "time": "2:30 PM - 4:00 PM",
+          "activity": "Practice: Create a new React project using Vite. Build a simple 'Hello, World!' component and a 'Welcome Message' component."
+        },
+        {
+          "time": "4:00 PM - 5:00 PM",
+          "activity": "Watch 'React JS Tutorial for Beginners (2025)' by Tech Jashwanth (Sections: Learn Components, JSX, Vite & Virtual DOM Quick)"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=SqcY0GlETPk",
+        "https://www.youtube.com/watch?v=TtPXvEcE11E",
+        "https://www.youtube.com/watch?v=zUx56TYIE24"
+      ],
+      "books": [
+        "Learning React by Alex Banks (https://openlibrary.org/works/OL20915214W)"
+      ],
+      "project": "Create a simple React application that displays a 'Hello, React!' heading and a custom 'Greeting' component showing your name.",
+      "notes": "Day 1 focused on understanding what React is, how to set up a development environment (Vite), and core concepts like JSX and functional components. Practice is key for JSX syntax."
+    },
+    {
+      "day": 2,
+      "focus": "Components, Props, and State (useState Hook)",
+      "sessions": [
+        {
+          "time": "9:00 AM - 11:00 AM",
+          "activity": "Continue 'React Tutorial Full Course - Beginner to Pro' by SuperSimpleDev (Sections: Props, State - the useState Hook, Event Handling)"
+        },
+        {
+          "time": "11:00 AM - 12:30 PM",
+          "activity": "Read 'Learning React' by Alex Banks (Chapters: Props for Data Flow, Managing State with Hooks)"
+        },
+        {
+          "time": "1:30 PM - 3:30 PM",
+          "activity": "Practice: Build an interactive 'Counter' component with increment/decrement buttons and a 'Reset' button. Understand how state updates re-render components."
+        },
+        {
+          "time": "3:30 PM - 5:00 PM",
+          "activity": "Watch 'React JS - React Tutorial for Beginners' by Programming with Mosh (Sections: Components, Props, State, Handling Events)"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=TtPXvEcE11E",
+        "https://www.youtube.com/watch?v=Ke90Tje7VS0"
+      ],
+      "books": [
+        "Learning React by Alex Banks (https://openlibrary.org/works/OL20915214W)"
+      ],
+      "project": "Develop a 'Text Changer' app where a button click changes the displayed text content. Implement two-way data flow using props and state.",
+      "notes": "Day 2 introduced the essential concepts of Props for passing data down to components and State (using the `useState` hook) for managing data within components. Event handling was also covered."
+    },
+    {
+      "day": 3,
+      "focus": "Conditional Rendering, Lists, and Basic `useEffect`",
+      "sessions": [
+        {
+          "time": "9:00 AM - 11:00 AM",
+          "activity": "Continue 'React Tutorial Full Course - Beginner to Pro' by SuperSimpleDev (Sections: Conditional Rendering, Rendering Lists, Introduction to the useEffect Hook)"
+        },
+        {
+          "time": "11:00 AM - 12:30 PM",
+          "activity": "Read 'Learning React' by Alex Banks (Chapters: Conditional Rendering, Rendering Lists, Understanding `useEffect` Basics)"
+        },
+        {
+          "time": "1:30 PM - 3:30 PM",
+          "activity": "Practice: Create a 'Todo List' application. Implement adding new items, marking items as complete (conditional styling), and deleting items. Use `map()` for list rendering."
+        },
+        {
+          "time": "3:30 PM - 5:00 PM",
+          "activity": "Explore basic `useEffect` examples (e.g., logging state changes, simple title updates) to understand its purpose in managing side effects."
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=TtPXvEcE11E"
+      ],
+      "books": [
+        "Learning React by Alex Banks (https://openlibrary.org/works/OL20915214W)"
+      ],
+      "project": "Build a 'Show/Hide Element' component. Use a button to toggle the visibility of a paragraph or image. Extend the Todo List with a filter to show active/completed items.",
+      "notes": "Day 3 covered displaying content conditionally, rendering dynamic lists of data, and a basic introduction to the `useEffect` hook for handling side effects after renders. The Todo List project is crucial for reinforcing these concepts."
+    },
+    {
+      "day": 4,
+      "focus": "Forms, Component Composition, and Advanced `useEffect`",
+      "sessions": [
+        {
+          "time": "9:00 AM - 11:00 AM",
+          "activity": "Continue 'React Tutorial Full Course - Beginner to Pro' by SuperSimpleDev (Sections: Controlled Components for Forms, Lifting State Up, Component Composition)"
+        },
+        {
+          "time": "11:00 AM - 12:30 PM",
+          "activity": "Read 'Learning React' by Alex Banks (Chapters: Handling Forms in React, Component Composition and Reusability)"
+        },
+        {
+          "time": "1:30 PM - 3:30 PM",
+          "activity": "Practice: Create a 'Simple Registration Form' with input fields for Name, Email, and Password. Handle form submission and display the input data. Make sure it's a controlled component."
+        },
+        {
+          "time": "3:30 PM - 5:00 PM",
+          "activity": "Explore 'React and React Native' by Adam Boduch for broader context on component patterns and forms, if 'Learning React' feels insufficient. Experiment with `useEffect` cleanup functions (conceptually)."
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=TtPXvEcE11E"
+      ],
+      "books": [
+        "Learning React by Alex Banks (https://openlibrary.org/works/OL20915214W)",
+        "React and React Native by Adam Boduch (https://openlibrary.org/works/OL19545984W)"
+      ],
+      "project": "Build a 'Feedback Form' with a text area and a submit button. Display the submitted feedback below the form. Implement basic input validation (e.g., ensure text area is not empty).",
+      "notes": "Day 4 focused on handling user input through forms using controlled components. Understanding component composition for building complex UIs from smaller parts is also key. `useEffect` was explored for more practical scenarios."
+    },
+    {
+      "day": 5,
+      "focus": "Review & Build a Mini-Application",
+      "sessions": [
+        {
+          "time": "9:00 AM - 11:00 AM",
+          "activity": "Review key sections from 'React Tutorial Full Course - Beginner to Pro' by SuperSimpleDev on topics you found challenging. Revisit `useState`, `useEffect`, props, and state flow."
+        },
+        {
+          "time": "11:00 AM - 12:30 PM",
+          "activity": "Brainstorm ideas for a mini-application. Consult 'React Projects' by Roy Derks for inspiration on project structure and features relevant to a beginner. (e.g., a simple product listing, a calculator, a basic weather app mockup)."
+        },
+        {
+          "time": "1:30 PM - 5:00 PM",
+          "activity": "Work on the chosen mini-application. Focus on applying all learned concepts: components, props, state, event handling, conditional rendering, lists, and forms."
+        },
+        {
+          "time": "5:00 PM - 6:00 PM",
+          "activity": "Self-reflection: Document challenges encountered and solutions found. Plan next steps for continued React learning. (Optional: Watch 'React Tutorial in Hindi' by CodeWithHarry if language is preferred)."
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=TtPXvEcE11E",
+        "https://www.youtube.com/watch?v=RGKi6LSPDLU"
+      ],
+      "books": [
+        "Learning React by Alex Banks (https://openlibrary.org/works/OL20915214W)",
+        "React Projects by Roy Derks (https://openlibrary.org/works/OL23083593W)"
+      ],
+      "project": "Build a 'Product Listing' page: Display a list of products (name, description, price, image URL - use dummy data). Allow users to add products to a 'shopping cart' (simple state management).",
+      "notes": "Day 5 is dedicated to consolidating knowledge by building a practical mini-application. This project will help integrate all the core concepts learned throughout the week into a cohesive application. Reviewing concepts is crucial for long-term retention."
+    }
+  ]
+}
