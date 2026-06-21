@@ -1,5 +1,0 @@
-#ignores python environment
-venv/
-
-#ignores .env where we store our api keys
-.env
